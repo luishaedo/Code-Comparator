@@ -20,7 +20,7 @@ fun AppNavigation() {
         }
         composable(
             route = AppScreens.IntroTextScreen.route,){
-           // route = AppScreens.IntroTextScreen.route + "/{highlightedText}",){
+           
             IntroTextScreen(navController, codeComparisonViewModel = CodeComparisonViewModel())
         }
 
